@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 .container {
-    max-width: 145rem;
+    max-width: 120rem;
     padding-right:  3rem;
     padding-left:  3rem;
     margin-right: auto;
@@ -54,7 +54,7 @@ html {
     width: 5rem;
     height: 5rem;
     transition: all 0.5s;
-    z-index: 2000;
+    z-index: 10000;
 }
 .top:hover {
     transform: scale(1.2);
@@ -144,12 +144,13 @@ html {
 .hero .cv-btn {
     position: relative;
     margin-top: 3rem;
+    margin-right: 2rem;
     background-color: var(--main-purple);
     color: var(--white-grey);
     display: inline-block;
     cursor: pointer;
     padding: 1.4rem 1.8rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     border-radius: 3rem;
     z-index: 100;
 }

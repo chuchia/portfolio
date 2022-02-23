@@ -1,18 +1,18 @@
 
 
 @media (max-width : 1200px) {
-  .header {
+  /* .header {
     position: relative;
-    }
+    } */
   .container {
     max-width: 100rem;
     padding-right: 5rem;
     padding-left: 5rem;
     
   }
-  .hero {
+  /* .hero {
       margin-top: 5rem;
-  }
+  } */
   
   .btn1 {
      display: none;
@@ -87,6 +87,9 @@
     font-size: 5rem;
     
 }
+/* .shape {
+    display: none;
+} */
 
     }
 
