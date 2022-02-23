@@ -1,0 +1,159 @@
+
+
+@media (max-width : 1200px) {
+  .header {
+    position: relative;
+    }
+  .container {
+    max-width: 100rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    
+  }
+  .hero {
+      margin-top: 5rem;
+  }
+  
+  .btn1 {
+     display: none;
+  }
+  .nav-mid {
+      display: none;
+  }
+  .navbar1 {
+    position: absolute;
+    background-color: aliceblue; 
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 400;
+    font-size: 2rem;
+    z-index: 800;
+    
+
+  }
+  .navbar1 .icon-nav  {
+    position: fixed;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    font-size: 3.5rem;
+    z-index: 999;
+  }
+
+ .iconhide{
+
+     display: block;
+     cursor: pointer;
+     font-size: 3.5rem;
+ }
+
+.name-font .bg-text {
+    font-size: 7rem;
+}
+
+.card h1 span {
+    font-size: 7rem;
+}
+.grid {
+    display: grid;
+    grid-template-columns:1;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+.card-1 {
+    padding: 4rem 5rem;
+    border-radius: 1rem;
+    background-color: var(--white);
+    margin-bottom: 5rem;
+    transition: all 0.5s;
+}
+.hero .me {
+    
+    bottom: 0;
+    right: 30px;
+    max-width: 50rem;
+}
+.hero h1 {
+    
+    font-size: 5rem;
+    
+}
+
+    }
+
+    
+@media (max-width : 767px) {
+    .container {
+        max-width: 72rem;
+        
+    }
+    .grid {
+        
+        grid-template-columns:1fr;
+    }
+    
+    .name-font .bg-text {
+        display: none;
+    }
+    
+    .card h1 span {
+        display: none;
+    }
+    .hero h1 {
+        position: relative;
+        font-size: 4rem;
+        font-weight: 900;
+        color: var(--text-black);
+        z-index: 100;
+    }
+    .hero .me {
+       display: none;
+    }
+    .name-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6rem;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}
+    
+@media (max-width : 575px) {
+    .container {
+        max-width: 56rem;
+        
+    }
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+}
+@media (max-width : 400px) {
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+    .card-1 h3 {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .card-grid span {
+        width: 6rem;
+        height: 6rem;
+        padding: 1rem;
+        border-radius: 50%;
+        background-color: rgba(130, 122, 224, 0.1);
+    }
+}
