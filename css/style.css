@@ -256,10 +256,10 @@ html {
 }
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
     align-items: center;
     justify-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
     text-align: center;
     
 }
@@ -267,6 +267,7 @@ html {
     padding: 6rem  7rem;
     border-radius: 1rem;
     background-color: var(--white);
+    height: 51rem;
     margin-bottom: 10rem;
     transition: all 0.5s ;
 }
